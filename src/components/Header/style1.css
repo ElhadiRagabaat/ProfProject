@@ -1,0 +1,104 @@
+
+
+.contact-container{
+    width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    border: 3px solid  #16c79a;
+   
+    backdrop-filter: blur(6px);
+    background: white;
+    
+}
+.contact-info{
+    background-color: #16c79a;
+    flex: 0 1 30%;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0;
+}
+.contact-info p{
+    font-size: 1.3rem;
+    color: rgba(255, 255, .7);
+    font-weight: 300;
+
+}
+
+.icon-text{
+    color: white;
+}
+.fa{
+    font-size: 1.5rem;
+}
+span{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.social-media{
+    display: flex;
+    width: 50%;
+    background: #16c79a;
+    color: black;
+    margin-top: 100px;
+}
+form{
+padding: 30px;
+width: 100%;
+}
+.col{
+    display:block;
+    width: 100%;
+    flex: 0 0 100%;
+}
+.form-group{
+ display: flex;
+ justify-content:flex-start;
+ flex: 0 0 100%;
+    flex-direction: column;
+}
+.form-group label{
+    font-size: .9rm;
+   
+    color: #16c79a;
+    
+    
+}
+.form-group input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    border-bottom: 2px solid gray;
+    outline: none;
+    
+}
+.form-group textarea{
+border: 1px solid #16c79a;
+padding: 12px;
+
+}
+.form-group textarea:focus{
+    outline: none;
+}
+@media screen and (max-width:768px){
+    .contact-container{
+        display: inline-block;
+        padding: 10px;
+        width: 100%;
+    }
+    .contact-container{
+        border: none;
+        padding: 26px;
+    }
+    
+}

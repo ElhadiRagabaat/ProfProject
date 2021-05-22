@@ -1,0 +1,39 @@
+
+.logoImge{
+    max-width: 150px;
+    max-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.logoImge img{
+    width: 150px;
+    height: 100px;
+    margin-top: -25px;
+    object-fit: cover;
+    
+}
+
+.headerMenus a{
+    display: inline-block;
+    margin: 0 12px;
+    text-transform: uppercase;
+    color: goldenrod;
+    font-family: initial;
+    font-weight:600 ; 
+
+   
+
+}
+.headerMenus a:hover{
+    color:  #16c79a;;
+}
+@media screen and (max-width:768px){
+    .logoImge{
+        display: none;
+    }
+    .headerMenus a{
+        font-weight: 400;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,31 @@
+.socialConect{
+   
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   
+    
+
+}
+
+
+/* .socialConect.socialLink {
+    
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    transition: transform .2s ease-out;
+    vertical-align: middle;
+    
+    
+}
+.socialConect.socialLink :hover{
+    transform: scale(1.1);
+} */
+

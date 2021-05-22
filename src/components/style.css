@@ -1,0 +1,16 @@
+.meRightImgContainer{
+    width: 276px;
+    height: 445px;
+    overflow: hidden;
+}
+.meRightImgContainer img{ 
+    max-width: 276px;
+    max-height: 445px;
+    
+    object-fit: contain;
+    border: none;
+    /* opacity:0.9; */
+    /* background-color: #16c79a; */
+   
+
+}

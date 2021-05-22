@@ -1,0 +1,20 @@
+.rightImgMeContainer{ 
+    width: 300px;
+    height: 445px;
+   
+    position: absolute;
+    top: 0;
+   
+}
+.rightImgMeContainer img{
+    width: 300px;
+    height: 450px;
+    margin-right: 100px;
+    object-fit:contain
+}
+@media screen and (max-width: 768px){
+    .rightImgMeContainer{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,24 @@
+.qualificationImg{ 
+
+    max-width:  400px;
+   min-height: 445px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+@media screen and (max-width:768px){
+    .mediaQuery{
+        margin-bottom: 20px;
+    }
+    .mediaQuery img{
+        height: 320px;
+    }
+}
+@media screen and (max-width:900px){
+    .mediaQuery{
+        margin-bottom: 20px;
+    }
+    .mediaQuery img{
+        height: 400px;
+    }
+}
