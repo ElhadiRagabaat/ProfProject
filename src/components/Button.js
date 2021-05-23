@@ -18,10 +18,10 @@ export default function Button(props) {
 
     // }}>{props.lable}</a>
 <div className="container text-center align-center">
-            <h1 className="mtb-10">Lastest Projects</h1>
-            <a href="https://alhdiapp.herokuapp.com/" target="_blank">
+            <h1 className="mtb-10">Lasts Projects</h1>
+            <a href="https://alhdiapp.herokuapp.com/" target="_blank" style={{borderBottom:"2px solid grey"}}>
                 
-                CRUD Node Js project</a>
+                <span className="mrl-10  primaryColor"> CRUD</span> Node Js project</a>
 
         </div>
         
