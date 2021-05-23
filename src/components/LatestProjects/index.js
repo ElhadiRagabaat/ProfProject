@@ -21,7 +21,7 @@ export default function LatestProjects(props) {
             <Card className=" flexRow align-center justify-sb flexCol"> 
                 <div className="projectPf" >
                 <SmallHeading text=" Protfolios"/>
-                <MediumHeading text=" Lastes Projects" style={{ textTransform:" uppercase"}}/>
+                <MediumHeading text=" Lasts Projects" style={{ textTransform:" uppercase"}}/>
                 <div className=" mtb-10 flexRow" style={{justifyContent:"center"}}>
                 {/* <Button lable="Protfolios"/> */}
                 <button className="hireMeBtn" onClick={handelLastProjects}>Protfolios</button>

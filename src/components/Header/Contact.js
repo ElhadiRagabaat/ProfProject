@@ -46,7 +46,7 @@ export default function Contact() {
             </div>
             <div className="icon-text mtb-10">
               <GrLocation className="fa mrl-10" />
-              <span> Isreal Rishon Lezion  </span>
+              <span> Israel Rishon Lezion  </span>
             </div>
             <div className="social-media">
               <div className="icon-circle">
