@@ -42,7 +42,7 @@ export default function Qualification() {
                 </div>
 
             </div>
-            <Card data-aos="fade-up" className=" m-auto" style={{ width: "500px", padding: "30px", marginTop: "100px" }}>
+            <Card data-aos="fade-up" className=" m-auto" style={{ padding: "30px", marginTop: "100px" }}>
                 <p className=" text-center font-12 mtb-10">Have  any project in mind <span className=" primaryColor">Say Hello At</span></p>
                 <p className="text-center font-25 mtb-10" >+972548726198</p>
                 <p className="text-center font-25 mtb-10  bold-500 fo">alhadiragabaat@gmail.com</p>
