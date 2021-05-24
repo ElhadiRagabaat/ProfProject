@@ -16,8 +16,11 @@
 .headerMenus{
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 200;
     background-color: #fff;
+    overflow: hidden;
+    margin-top: 4px;
+    box-shadow:"#6dba6d 0px 0px 10px 0px"
 }
 
 .headerMenus a{
