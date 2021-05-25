@@ -10,10 +10,11 @@
 html, body {
   overflow-x: hidden;
   box-shadow:"#6dba6d 0px 0px 10px 0px"
+
 }
-body {
+/* body {
   width:100%;
-}
+} */
 /* body{
    /* background-image: url(../src/asests/bac2.png);
   background-repeat: repeat; 
@@ -112,8 +113,8 @@ body {
   text-align: center;
 }
 .container{
-  /* width: 900px; */
-  /* margin:0 auto; */
+ width: 900px; 
+  margin:0 auto;
   position:relative;
   box-sizing: border-box;
 }

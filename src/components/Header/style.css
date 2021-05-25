@@ -13,15 +13,18 @@
     object-fit: cover;
     
 }
-.headerMenus{
-    position: fixed;
-    top: 0;
-    z-index: 6;
-    background-color: #fff;
-    overflow: hidden;
-  
-    box-shadow:"#6dba6d 0px 0px 10px 0px"
+@media screen and (max-width:768px){
+    .headerMenus{
+        position: fixed;
+        top: 0;
+        z-index: 6;
+        background-color: #fff;
+        overflow: hidden;
+      
+        box-shadow:"#6dba6d 0px 0px 10px 0px"
+    }
 }
+
 
 .headerMenus a{
     display: inline-block;
