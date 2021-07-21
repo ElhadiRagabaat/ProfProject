@@ -22,7 +22,11 @@ export default function Button(props) {
             <a href="https://alhdiapp.herokuapp.com/" target="_blank" style={{borderBottom:"2px solid grey"}}>
                 
                 <span className="mrl-10  primaryColor mtb-10"> CRUD</span> Node Js project</a>
-
+<div className="mtb-10">
+                <a href="https://photografic.netlify.app/" target="_blank" style={{borderBottom:"2px solid grey"}}>
+                
+                <span className="mrl-10  primaryColor mtb-10">photografic. </span> Firebase</a>
+                </div>
         </div>
         
     )
